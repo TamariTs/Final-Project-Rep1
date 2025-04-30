@@ -1,4 +1,4 @@
-//1.დავალება „რეგისტრაცია“
+//1. „რეგისტრაცია“
 describe('Final project', () => {
   before(()=>{
       cy.fixture("registrationFinal.json").as("Userdatta")
@@ -10,7 +10,7 @@ describe('Final project', () => {
   })
 })
 
-// 2.დავალება „ავტორიზაცია“
+// 2.„ავტორიზაცია“
 describe('Final project', () => {
   before(()=>{
      cy.fixture("registrationFinal.json").as("Userdatta")  })
@@ -20,7 +20,7 @@ describe('Final project', () => {
 
   })})
 
-//3.დავალება "კალათა"
+//3."კალათა"
 describe('Final project', () => {
     it('passes', () => {
         cy.visit('https://testzootopia.loremipsum.ge/ka')
