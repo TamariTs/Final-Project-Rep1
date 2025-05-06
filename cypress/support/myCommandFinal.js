@@ -9,7 +9,7 @@ Cypress.Commands.add("registrationFinalP", (Userdatta) => {
     cy.get(':nth-child(5) > .ipass').type(Userdatta.password)
     cy.get('.reg-form-left > :nth-child(6) > .ipass').type(Userdatta.confirmPassword)
     cy.get('#Path_10302').click()
-    //cy.get('.regsub').click()
+    //cy.get('.regsub').click() - ლიდა აქ რეგისტრაციის ღილაკი დავაკომენტარე რადგან უკვე დარეგისტრირებული ვარ ამ მონაცემებით
 }
 
 )
